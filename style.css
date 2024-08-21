@@ -1,47 +1,19 @@
 
-@media (max-width: 1024px) {
-    .background {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(180deg, #234949 10%, #2C5C5C 25%, rgba(75, 156, 156, 0.6) 100%);
-    }
-}
-
-
-@media (max-width: 768px) and (max-width:1023) {
-    .background {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
-    }
-}
-@media (max-width: 767px) {
-    .your-element {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
-    }
-}
-
-
-
-
-/*______________________________________________________*/
-
 
 .background {
   
-    position: relative;
-    width: 412px;
-    height: 1200px;
-
-    background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+    .background {
+        position: relative;
+        width: 412px;
+        height: 1200px;
+        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+}
 }
 
 .box-info-bg{
   
     position: absolute;
-    width: 290px;
+    width: 310px;
     height: 190px;
     left: -25px;
     top: -10px;
@@ -55,7 +27,7 @@
 .box-name-holder{
         
     position: absolute;
-    width: 250px;
+    width: 265px;
     height: 35px;
     left: -25px;
     top: 5px;
@@ -104,7 +76,7 @@
   
 
     position: absolute;
-    width: 280px;
+    width: 300px;
     height: 30px;
     left: -30px;
     top: 50px;
@@ -161,7 +133,7 @@
   
 
     position: absolute;
-    width: 260px;
+    width: 280px;
     height: 25px;
     left: -23px;
     top: 90px;
@@ -421,9 +393,28 @@ border-radius: 20px;
 
 
 
+@media (max-width: 1024px) {
+    .background {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #234949 10%, #2C5C5C 25%, rgba(75, 156, 156, 0.6) 100%);
+    }
+}
 
 
-
-
-
+@media (max-width: 768px) and (max-width:1023) {
+    .background {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
+    }
+}
+@media (max-width: 767px) {
+    .background {
+        position: relative;
+        width: 412px;
+        height: 1200px;
+        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+}
+}
 
