@@ -1,0 +1,429 @@
+
+@media (max-width: 1024px) {
+    .background {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #234949 10%, #2C5C5C 25%, rgba(75, 156, 156, 0.6) 100%);
+    }
+}
+
+
+@media (max-width: 768px) and (max-width:1023) {
+    .background {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
+    }
+}
+@media (max-width: 767px) {
+    .your-element {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
+    }
+}
+
+
+
+
+/*______________________________________________________*/
+
+
+.background {
+  
+    position: relative;
+    width: 412px;
+    height: 1200px;
+
+    background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+}
+
+.box-info-bg{
+  
+    position: absolute;
+    width: 290px;
+    height: 190px;
+    left: -25px;
+    top: -10px;
+
+    background: linear-gradient(270deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+    mix-blend-mode: soft-light;
+    border-radius: 20px;
+
+}
+
+.box-name-holder{
+        
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: -25px;
+    top: 5px;
+
+    background: #9CAFAA;
+    mix-blend-mode: difference;
+    border-radius: 42px;
+}
+
+.logo-person-style{
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top: 10px;
+
+    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724239257/e3oep8vaxaxj94jvzmo9.png); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+.text-name-style{
+ 
+
+    position: absolute;
+    width: 5px ;
+    height: 28px;
+    left: 25px;
+    top: 0px;
+
+    font-family: "Times New Roman",serif;
+    font-style: normal;
+    font-weight: 1px;
+    font-size:20px;
+    line-height:normal;
+
+    color: #000000;
+    white-space: nowrap;  
+
+
+}
+
+.box-loc-holder{
+  
+
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    left: -30px;
+    top: 50px;
+
+    background: #9CAFAA;
+    mix-blend-mode: difference;
+    border-radius: 42px;
+
+
+}
+
+.loc-logo-style{
+ 
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0px;
+    top:55px;
+
+    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/ncbnnfcqsozcwlknwrme.png); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+
+
+
+
+}
+
+.text-loc-style{
+   
+
+    position: absolute;
+    width: 480px;
+    height: 38px;
+    left: 25px;
+    top: 37px;
+
+    font-family: "Georgia",serif;
+    font-style:normal ;
+    font-weight: 1;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #000000;
+    white-space: nowrap;
+
+
+}
+
+.box-email-holder{
+  
+
+    position: absolute;
+    width: 260px;
+    height: 25px;
+    left: -23px;
+    top: 90px;
+
+    background: #9CAFAA;
+    mix-blend-mode: difference;
+    border-radius: 40px;
+    
+
+
+}
+
+.email-logo-style{
+
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 95px;
+
+    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/tnd4csyirho4j7l4umzo.png); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+
+}
+
+.text-email-style{
+   
+
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 25px;
+    top: 85px;
+
+
+    font-family: "Georgia",serif;
+    font-style:normal ;
+    font-weight: 1;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #000000;
+    white-space: nowrap;
+
+}
+
+.pic-container {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 310px;
+    top: 5px;
+    background: #D9D9D9;
+    
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; 
+}
+
+.pic-container img {
+    width: 100%;
+    height: 100%; 
+    object-fit:fill;
+    display:block;
+    border-radius: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.link-holder{
+  
+
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left: 25px;
+    top: 120px;
+
+    background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+    mix-blend-mode: soft-light;
+    border-radius: 55px;
+
+
+}
+
+
+.fb-link-holder {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 40px;
+    top: 123px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+
+}
+.github-link-holder {
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 100px;
+    top: 120px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+}
+.linkedIn-link-holder {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 160px;
+    top: 123px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+}
+
+.rect-design {
+    position: absolute;
+    width: 30px;
+    height: 560px;
+    background: linear-gradient(270deg, #677D6A 59.5%, #7F9A83 100%);
+    mix-blend-mode: hard-light;
+}
+
+
+
+.rectangle-1{
+
+    left: 370px;
+    top: -10px;
+
+}
+
+.rectangle-2{
+
+    left: 385px;
+    top: -10px;
+
+}
+
+.rectangle-3{
+
+    left: 400px;
+    top: -10px;
+
+}
+
+.rectangle-4{
+
+    left: 415px;
+    top: -10px;
+
+}
+
+.rectangle-5{
+ 
+    left: 430px;
+    top: -10px;
+
+}
+.rectangle-6 {
+   
+    left: 445px;
+    top: -10px;
+
+}
+
+.rectangle-7 {
+   
+    left: 460px;
+    top: -10px;
+ 
+}
+
+.rectangle-8 {
+   
+    left: 475px;
+    top: -10px;
+  
+}
+
+.rectangle-9{
+
+    left: 490px;
+    top: -10px;
+  
+
+}
+
+.about-bg{
+
+
+position: absolute;
+width: 355px;
+height:355px;
+left: 5px;
+top: 195px;
+
+background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+mix-blend-mode: soft-light;
+border-radius: 20px;
+
+
+    
+}
+.about-text-style{
+
+
+    font-family: "Times New Roman",serif;
+    font-style: normal;
+    font-weight: 2px;
+    font-size:40px;
+    line-height:normal;
+    padding-left: 7%
+
+}
+.about-content-style{
+
+    font-family: "Georgia",serif;
+    font-style:normal ;
+    font-weight: 1px;
+    text-align:center;
+    line-height: 1px;
+    text-wrap:balance ;
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 16%;
+
+    color: #000000;
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
