@@ -1,0 +1,599 @@
+@media (min-width: 1024px) {
+    .background {
+        width: 4120px;
+        height: 12000px;
+
+        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+}
+    
+    
+    .box-info-bg{
+    
+        width: 3100px;
+        height: 1900px;
+        left: -250px;
+        top: -100px;
+
+        border-radius: 200px;
+    
+
+    }
+
+    .box-name-holder{
+            
+
+        width: 2650px;
+        height: 350px;
+        left: -250px;
+        top: 50px;
+
+        border-radius: 420px;
+    }
+
+    .logo-person-style{
+
+        width: 200px;
+        height: 200px;
+        left: 50px;
+        top: 150px;
+
+      
+    }
+    .text-name-style{
+    
+
+
+        width: 50px ;
+        height: 280px;
+        left: 250px;
+        top: 0px;
+
+    
+
+     
+        font-size:200px;
+     
+    }
+
+    .box-loc-holder{
+    
+
+
+        width: 3000px;
+        height: 300px;
+        left: -300px;
+        top: 500px;
+
+     
+        border-radius: 420px;
+
+
+    }
+
+    .loc-logo-style{
+    
+        width: 200px;
+        height: 200px;
+        left: 50px;
+        top:550px;
+
+  
+    }
+
+    .text-loc-style{
+    
+        width: 4800px;
+        height: 38px;
+        left: 250px;
+        top: 350px;
+
+
+        font-size: 180px;
+        line-height: 360px;
+
+    }
+
+    .box-email-holder{
+    
+
+
+        width: 2800px;
+        height: 250px;
+        left: -230px;
+        top: 900px;
+
+        border-radius: 400px;
+        
+
+
+    }
+
+    .email-logo-style{
+
+        width: 170px;
+        height: 170px;
+        left: 50px;
+        top: 950px;
+
+
+    }
+
+    .text-email-style{
+    
+        width: 1320px;
+        height: 240px;
+        left: 250px;
+        top: 850px;
+
+
+        font-size: 180px;
+        line-height: 360px;
+
+ 
+    }
+
+    .pic-container {
+        width: 1800px;
+        height: 1800px;
+        left: 3100px;
+        top: 50px;
+        
+        border-radius: 1000px;
+        
+    }
+
+
+
+    .link-holder{
+    
+        width: 2000px;
+        height: 550px;
+        left: 250px;
+        top: 1200px;
+
+        border-radius: 550px;
+
+    }
+
+
+    .fb-link-holder {
+
+        width: 500px;
+        height: 500px;
+        left: 400px;
+        top: 1230px;
+
+    
+        border-radius: 500px;
+
+    }
+    .github-link-holder {
+
+        width: 550px;
+        height: 550px;
+        left: 1000px;
+        top: 1200px;
+
+       
+        border-radius: 500px;
+    }
+    .linkedIn-link-holder {
+
+ 
+        width: 500px;
+        height: 500px;
+        left: 1600px;
+        top: 1230px;
+
+
+        border-radius: 500px;
+    }
+
+    .rect-design {
+
+        width: 300px;
+
+    }
+
+
+
+    .rectangle-1{
+
+        left: 3700px;
+        top: -100px;
+        height: 5600px;
+    
+    }
+    
+    .rectangle-2{
+    
+        left: 3850px;
+        top: -100px;
+        height: 5600px;
+    }
+    
+    .rectangle-3{
+    
+        left: 4000px;
+        top: -100px;
+        height: 5600px;
+    
+    }
+    
+    .rectangle-4{
+    
+        left: 4150px;
+        top: -100px;
+        height: 5600px;
+    }
+    
+    .rectangle-5{
+     
+        left: 4300px;
+        top: -100px;
+        height: 5600px;
+    
+    }
+    .rectangle-6 {
+       
+        left: 4450px;
+        top: -100px;
+        height: 5600px;
+        
+    }
+    
+    .rectangle-7 {
+       
+        left: 4600px;
+        top: -100px;
+        height: 5600px;
+        
+    }
+    
+    .rectangle-8 {
+       
+        left: 4750px;
+        top: -100px;
+        height: 5600px;
+          
+    }
+
+    .rectangle-9{
+    
+        left: 4900px;
+        top: -100px;
+        height: 5600px;
+        
+      
+    
+    }
+
+    .rectangle-10{
+
+        left: 3700px;
+        top: 6850px;
+        height: 5250px;
+        
+
+    }
+
+    .rectangle-11{
+
+        left: 3850px;
+        top: 6850px;
+        height: 5250px;
+
+    }
+
+    .rectangle-12{
+
+        left: 4000px;
+        top: 6850px;
+        height: 5250px;
+
+    }
+
+    .rectangle-13{
+
+        left: 4150px;
+        top: 6850px;
+        height: 5250px;
+    }
+
+    .rectangle-14{
+    
+        left: 4300px;
+        top: 6850px;
+        height: 5250px;
+    }
+    .rectangle-15{
+    
+        left: 4450px;
+        top: 6850px;
+        height: 5250px;
+    }
+
+    .rectangle-16{
+    
+        left: 4600px;
+        top: 6850px;
+        height: 5250px;
+    }
+
+    .rectangle-17{
+    
+        left: 4750px;
+        top: 6850px;
+        height: 5250px;
+    }
+
+    .rectangle-18{
+
+        left: 4900px;
+        top: 6850px;
+        height: 5250px;
+
+    }
+
+    .about-bg{
+
+
+
+    width: 3550px;
+    height:3550px;
+    left: 50px;
+    top: 1950px;
+
+
+    border-radius: 200px;
+
+
+        
+    }
+    .about-text-style{
+
+
+   
+        font-weight: 2px;
+        font-size:400px;
+        line-height:normal;
+        padding-left: 7%
+
+    }
+    .about-content-style{
+
+        line-height: 10px;
+        font-size: 200px;
+        line-height: 300px;
+        
+
+        color: #000000;
+    
+
+
+    }
+
+
+
+    .abstract-1 {
+
+        width: 2000px;
+        height:550px;
+        left: -230px;
+        top: 5800px;
+        border-radius: 1100px;
+    }
+
+
+    .abstract-2 {
+
+        width: 330px;
+        height: 1330px;
+        left: 0px;
+        top: 5520px;
+        border-radius: 1000px;
+    }
+
+
+    .abstract-3 {
+
+        width: 2550px;
+        height: 750px;
+        left: 0px;
+        top: 6100px;
+        border-radius: 590px;
+    }
+
+
+    .abstract-4 {
+
+        width: 1200px;
+        height: 1350px;
+        left: -150px;
+        top: 5500px;
+        border-radius: 350px;
+    }
+
+
+    .abstract-5 {
+
+        width: 2800px;
+        height: 600px;
+        left: 600px;
+        top: 5500px;
+        border-radius: 450px;
+    }
+
+
+    .abstract-6 {
+
+        width: 2500px;
+        height: 550px;
+        left: 1100px;
+        top: 6050px;
+        border-radius: 1100px;
+    }
+
+
+    .abstract-7 {
+
+        width: 2750px;
+        height: 550px;
+        left: 1250px;
+        top: 5500px;
+        border-radius: 1000px;
+    }
+
+
+    .abstract-8 {
+
+        width: 2000px;
+        height:550px;
+        left: 3200px;
+        top: 5800px;
+        border-radius: 1100px;
+
+    }
+
+
+    .abstract-9 {
+
+        width: 330px;
+        height: 1330px;
+        left: 4850px;
+        top: 5520px;
+        border-radius: 1000px;
+    }
+
+
+    .abstract-10 {
+
+        width: 2550px;
+        height: 750px;
+        left: 2650px;
+        top: 5500px;
+        border-radius: 590px;
+    }
+
+
+    .abstract-11 {
+
+        width: 1200px;
+        height: 1350px;
+        left: 4000px;
+        top: 5500px;
+        border-radius: 350px;
+    }
+
+
+    .abstract-12 {
+
+        width: 2800px;
+        height: 600px;
+        left: 1600px;
+        top: 6250px;
+        border-radius: 450px;
+    }
+
+
+    .abstract-13 {
+
+        width: 2500px;
+        height: 550px;
+        left: 1600px;
+        top: 5800px;
+        border-radius: 1100px;
+    }
+
+
+    .abstract-14 {
+    
+        width: 550px;
+        height: 1000px;
+        left: 3400px;
+        top: 5800px;
+        border-radius: 1000px;
+    }
+
+    .project-text-holder{
+
+        width: 1320px;
+        height: 240px;
+        left: 200px;
+        top: 5350px;
+
+
+   
+        font-size:1000px;
+        line-height: 360px;
+
+    }
+
+    .carousel-container {
+        width: 4500px; 
+        height: 2750px;
+        left: 100px;
+        top: 7000px;
+    
+     
+        border-radius: 200px;
+    }
+
+
+
+
+    .lower-link-holder{
+  
+
+    
+        width: 2000px;
+        height: 550px;
+        left:1500px;
+        top: 10500px;
+    
+       
+        border-radius: 550px;
+    
+    
+    }
+    
+    
+    .lower-fb-link-holder {
+    
+ 
+        width: 500px;
+        height: 500px;
+        left: 1650px;
+        top: 10530px;
+    
+
+        border-radius: 500px;
+    
+    }
+    .lower-github-link-holder {
+    
+
+        width: 550px;
+        height: 550px;
+        left: 2250px;
+        top: 10500px;
+    
+    
+        border-radius: 500px;
+    }
+    .lower-linkedIn-link-holder {
+    
+ 
+        width: 500px;
+        height: 500px;
+        left: 2850px;
+        top: 10530px;
+    
+
+        border-radius: 500px;
+    }
+    
+
+
+
+}

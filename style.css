@@ -1,12 +1,12 @@
+
 .background {
   
-    .background {
-        position: relative;
-        width: 412px;
-        height: 1200px;
-        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+    position: relative;
+    width: 412px;
+    height: 1200px;
+    background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
 }
-}
+
 
 .box-info-bg{
   
@@ -630,48 +630,97 @@ border-radius: 20px;
     white-space: nowrap;
 }
 
+.carousel-container {
+    width: 500px; 
+    height: 300px;
+    left: 10px;
+    top: 700px;
+    position: relative;
+    overflow: hidden;
 
+    background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
 
+    border-radius: 20px;
+}
 
+.carousel-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1024px) {
-    .background {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(180deg, #234949 10%, #2C5C5C 25%, rgba(75, 156, 156, 0.6) 100%);
-    }
+.carousel-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 
-@media (max-width: 768px) and (max-width:1023) {
-    .background {
-        width: 100%;
-        height: auto;
-        background: linear-gradient(180deg, #234949 8%, #2C5C5C 20%, rgba(75, 156, 156, 0.6) 100%);
-    }
+
+
+.lower-link-holder{
+  
+
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left:150px;
+    top: 1050px;
+
+    background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+    mix-blend-mode: soft-light;
+    border-radius: 55px;
+
+
 }
-@media (max-width: 767px) {
-    .background {
-        position: relative;
-        width: 412px;
-        height: 1200px;
-        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+
+
+.lower-fb-link-holder {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 1053px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+
 }
+.lower-github-link-holder {
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 225px;
+    top: 1050px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
 }
+.lower-linkedIn-link-holder {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 285px;
+    top: 1053px;
+
+    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+}
+
+
+
