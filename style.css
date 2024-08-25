@@ -1,726 +1,725 @@
 
-.background {
-  
-    position: relative;
-    width: 412px;
-    height: 1200px;
-    background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
-}
+    .background {
+        position: relative;
+        min-height: 1200px;
+        width: 100vw;  
+        background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
+    }
 
 
-.box-info-bg{
-  
-    position: absolute;
-    width: 310px;
-    height: 190px;
-    left: -25px;
-    top: -10px;
 
-    background: linear-gradient(270deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
-    mix-blend-mode: soft-light;
-    border-radius: 20px;
+    .box-info-bg{
+    
+        position: absolute;
+        width: 310px;
+        height: 190px;
+        left: -25px;
+        top: -10px;
 
-}
+        background: linear-gradient(270deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+        mix-blend-mode: soft-light;
+        border-radius: 20px;
 
-.box-name-holder{
+    }
+
+    .box-name-holder{
+            
+        position: absolute;
+        width: 265px;
+        height: 35px;
+        left: -25px;
+        top: 5px;
+
+        background: #9CAFAA;
+        mix-blend-mode: difference;
+        border-radius: 42px;
+    }
+
+    .logo-person-style{
+
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        top: 10px;
+
+        background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724239257/e3oep8vaxaxj94jvzmo9.png); 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+
+    }
+    .text-name-style{
+    
+
+        position: absolute;
+        width: 5px ;
+        height: 28px;
+        left: 25px;
+        top: 0px;
+
+        font-family: "Times New Roman",serif;
+        font-style: normal;
+        font-weight: 1px;
+        font-size:20px;
+        line-height:normal;
+
+        color: #000000;
+        white-space: nowrap;  
+
+
+    }
+
+    .box-loc-holder{
+    
+
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: -30px;
+        top: 50px;
+
+        background: #9CAFAA;
+        mix-blend-mode: difference;
+        border-radius: 42px;
+
+
+    }
+
+    .loc-logo-style{
+    
+
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        top:55px;
+
+        background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/ncbnnfcqsozcwlknwrme.png); 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+
+
+
+
+
+    }
+
+    .text-loc-style{
+    
+
+        position: absolute;
+        width: 480px;
+        height: 38px;
+        left: 25px;
+        top: 37px;
+
+        font-family: "Georgia",serif;
+        font-style:normal ;
+        font-weight: 1;
+        font-size: 18px;
+        line-height: 36px;
+
+        color: #000000;
+        white-space: nowrap;
+
+
+    }
+
+    .box-email-holder{
+    
+
+        position: absolute;
+        width: 280px;
+        height: 25px;
+        left: -23px;
+        top: 90px;
+
+        background: #9CAFAA;
+        mix-blend-mode: difference;
+        border-radius: 40px;
         
-    position: absolute;
-    width: 265px;
-    height: 35px;
-    left: -25px;
-    top: 5px;
-
-    background: #9CAFAA;
-    mix-blend-mode: difference;
-    border-radius: 42px;
-}
-
-.logo-person-style{
-
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 0px;
-    top: 10px;
-
-    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724239257/e3oep8vaxaxj94jvzmo9.png); 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-
-}
-.text-name-style{
- 
-
-    position: absolute;
-    width: 5px ;
-    height: 28px;
-    left: 25px;
-    top: 0px;
-
-    font-family: "Times New Roman",serif;
-    font-style: normal;
-    font-weight: 1px;
-    font-size:20px;
-    line-height:normal;
-
-    color: #000000;
-    white-space: nowrap;  
 
 
-}
+    }
 
-.box-loc-holder{
-  
+    .email-logo-style{
 
-    position: absolute;
-    width: 300px;
-    height: 30px;
-    left: -30px;
-    top: 50px;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 0px;
+        top: 95px;
 
-    background: #9CAFAA;
-    mix-blend-mode: difference;
-    border-radius: 42px;
-
-
-}
-
-.loc-logo-style{
- 
-
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 0px;
-    top:55px;
-
-    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/ncbnnfcqsozcwlknwrme.png); 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
+        background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/tnd4csyirho4j7l4umzo.png); 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
 
 
+    }
 
-
-
-}
-
-.text-loc-style{
-   
-
-    position: absolute;
-    width: 480px;
-    height: 38px;
-    left: 25px;
-    top: 37px;
-
-    font-family: "Georgia",serif;
-    font-style:normal ;
-    font-weight: 1;
-    font-size: 18px;
-    line-height: 36px;
-
-    color: #000000;
-    white-space: nowrap;
-
-
-}
-
-.box-email-holder{
-  
-
-    position: absolute;
-    width: 280px;
-    height: 25px;
-    left: -23px;
-    top: 90px;
-
-    background: #9CAFAA;
-    mix-blend-mode: difference;
-    border-radius: 40px;
+    .text-email-style{
     
 
-
-}
-
-.email-logo-style{
-
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    left: 0px;
-    top: 95px;
-
-    background-image: url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/tnd4csyirho4j7l4umzo.png); 
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
+        position: absolute;
+        width: 132px;
+        height: 24px;
+        left: 25px;
+        top: 85px;
 
 
-}
+        font-family: "Georgia",serif;
+        font-style:normal ;
+        font-weight: 1;
+        font-size: 18px;
+        line-height: 36px;
 
-.text-email-style{
-   
+        color: #000000;
+        white-space: nowrap;
 
-    position: absolute;
-    width: 132px;
-    height: 24px;
-    left: 25px;
-    top: 85px;
+    }
 
+    .pic-container {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 310px;
+        top: 5px;
+        background: #D9D9D9;
+        
+        border-radius: 100px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease; 
+    }
 
-    font-family: "Georgia",serif;
-    font-style:normal ;
-    font-weight: 1;
-    font-size: 18px;
-    line-height: 36px;
-
-    color: #000000;
-    white-space: nowrap;
-
-}
-
-.pic-container {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 310px;
-    top: 5px;
-    background: #D9D9D9;
-    
-    border-radius: 100px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease; 
-}
-
-.pic-container img {
-    width: 100%;
-    height: 100%; 
-    object-fit:fill;
-    display:block;
-    border-radius: 100px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
+    .pic-container img {
+        width: 100%;
+        height: 100%; 
+        object-fit:fill;
+        display:block;
+        border-radius: 100px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
 
 
-.link-holder{
-  
-
-    position: absolute;
-    width: 200px;
-    height: 55px;
-    left: 25px;
-    top: 120px;
-
-    background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
-    mix-blend-mode: soft-light;
-    border-radius: 55px;
-
-
-}
-
-
-.fb-link-holder {
-
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 40px;
-    top: 123px;
-
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
-
-}
-.github-link-holder {
-
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 100px;
-    top: 120px;
-
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
-}
-.linkedIn-link-holder {
-
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 160px;
-    top: 123px;
-
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
-}
-
-.rect-design {
-    position: absolute;
-    width: 30px;
-    background: linear-gradient(270deg, #677D6A 59.5%, #7F9A83 100%);
-    mix-blend-mode: hard-light;
-}
-
-
-
-.rectangle-1{
-
-    left: 370px;
-    top: -10px;
-    height: 560px;
-
-}
-
-.rectangle-2{
-
-    left: 385px;
-    top: -10px;
-    height: 560px;
-}
-
-.rectangle-3{
-
-    left: 400px;
-    top: -10px;
-    height: 560px;
-
-}
-
-.rectangle-4{
-
-    left: 415px;
-    top: -10px;
-    height: 560px;
-}
-
-.rectangle-5{
- 
-    left: 430px;
-    top: -10px;
-    height: 560px;
-
-}
-.rectangle-6 {
-   
-    left: 445px;
-    top: -10px;
-    height: 560px;
-    
-}
-
-.rectangle-7 {
-   
-    left: 460px;
-    top: -10px;
-    height: 560px;
-    
-}
-
-.rectangle-8 {
-   
-    left: 475px;
-    top: -10px;
-    height: 560px;
-      
-}
-
-.rectangle-9{
-
-    left: 490px;
-    top: -10px;
-    height: 560px;
-    
-  
-
-}
-
-
-
-.rectangle-10{
-
-    left: 370px;
-    top: 685px;
-    height: 525px;
+    .link-holder{
     
 
-}
+        position: absolute;
+        width: 200px;
+        height: 55px;
+        left: 25px;
+        top: 120px;
 
-.rectangle-11{
-
-    left: 385px;
-    top: 685px;
-    height: 525px;
-
-}
-
-.rectangle-12{
-
-    left: 400px;
-    top: 685px;
-    height: 525px;
-
-}
-
-.rectangle-13{
-
-    left: 415px;
-    top: 685px;
-    height: 525px;
-}
-
-.rectangle-14{
- 
-    left: 430px;
-    top: 685px;
-    height: 525px;
-}
-.rectangle-15{
-   
-    left: 445px;
-    top: 685px;
-    height: 525px;
-}
-
-.rectangle-16{
-   
-    left: 460px;
-    top: 685px;
-    height: 525px;
-}
-
-.rectangle-17{
-   
-    left: 475px;
-    top: 685px;
-    height: 525px;
-}
-
-.rectangle-18{
-
-    left: 490px;
-    top: 685px;
-    height: 525px;
-
-}
-
-.about-bg{
+        background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+        mix-blend-mode: soft-light;
+        border-radius: 55px;
 
 
-position: absolute;
-width: 355px;
-height:355px;
-left: 5px;
-top: 195px;
-
-background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
-mix-blend-mode: soft-light;
-border-radius: 20px;
+    }
 
 
+    .fb-link-holder {
+
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 40px;
+        top: 123px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+
+    }
+    .github-link-holder {
+
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        left: 100px;
+        top: 120px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+    }
+    .linkedIn-link-holder {
+
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 160px;
+        top: 123px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+    }
+
+    .rect-design {
+        position: absolute;
+        width: 30px;
+        background: linear-gradient(270deg, #677D6A 59.5%, #7F9A83 100%);
+        mix-blend-mode: hard-light;
+    }
+
+
+
+    .rectangle-1{
+
+        left: 370px;
+        top: -10px;
+        height: 560px;
+
+    }
+
+    .rectangle-2{
+
+        left: 385px;
+        top: -10px;
+        height: 560px;
+    }
+
+    .rectangle-3{
+
+        left: 400px;
+        top: -10px;
+        height: 560px;
+
+    }
+
+    .rectangle-4{
+
+        left: 415px;
+        top: -10px;
+        height: 560px;
+    }
+
+    .rectangle-5{
     
-}
-.about-text-style{
+        left: 430px;
+        top: -10px;
+        height: 560px;
+
+    }
+    .rectangle-6 {
+    
+        left: 445px;
+        top: -10px;
+        height: 560px;
+        
+    }
+
+    .rectangle-7 {
+    
+        left: 460px;
+        top: -10px;
+        height: 560px;
+        
+    }
+
+    .rectangle-8 {
+    
+        left: 475px;
+        top: -10px;
+        height: 560px;
+        
+    }
+
+    .rectangle-9{
+
+        left: 490px;
+        top: -10px;
+        height: 560px;
+        
+    
+
+    }
 
 
-    font-family: "Times New Roman",serif;
-    font-style: normal;
-    font-weight: 2px;
-    font-size:40px;
-    line-height:normal;
-    padding-left: 7%
 
-}
-.about-content-style{
+    .rectangle-10{
 
-    font-family: "Georgia",serif;
-    font-style:normal ;
-    font-weight: 1px;
-    text-align:center;
-    line-height: 1px;
-    text-wrap:balance ;
-    font-size: 20px;
-    line-height: 30px;
+        left: 370px;
+        top: 685px;
+        height: 525px;
+        
 
+    }
 
-    color: #000000;
-   
+    .rectangle-11{
 
+        left: 385px;
+        top: 685px;
+        height: 525px;
 
-}
+    }
 
+    .rectangle-12{
 
-.abstract-design {
+        left: 400px;
+        top: 685px;
+        height: 525px;
+
+    }
+
+    .rectangle-13{
+
+        left: 415px;
+        top: 685px;
+        height: 525px;
+    }
+
+    .rectangle-14{
+    
+        left: 430px;
+        top: 685px;
+        height: 525px;
+    }
+    .rectangle-15{
+    
+        left: 445px;
+        top: 685px;
+        height: 525px;
+    }
+
+    .rectangle-16{
+    
+        left: 460px;
+        top: 685px;
+        height: 525px;
+    }
+
+    .rectangle-17{
+    
+        left: 475px;
+        top: 685px;
+        height: 525px;
+    }
+
+    .rectangle-18{
+
+        left: 490px;
+        top: 685px;
+        height: 525px;
+
+    }
+
+    .about-bg{
+
 
     position: absolute;
-    background: #9CAFAA;
-    mix-blend-mode: difference;
-}
-
-
-.abstract-1 {
-
-    width: 200px;
-    height:55px;
-    left: -23px;
-    top: 580px;
-    border-radius: 110px;
-}
-
-
-.abstract-2 {
-
-    width: 33px;
-    height: 133px;
-    left: 0px;
-    top: 552px;
-    border-radius: 100px;
-}
-
-
-.abstract-3 {
-
-    width: 255px;
-    height: 75px;
-    left: 0px;
-    top: 610px;
-    border-radius: 59px;
-}
-
-
-.abstract-4 {
-
-    width: 120px;
-    height: 135px;
-    left: -15px;
-    top: 550px;
-    border-radius: 35px;
-}
-
-
-.abstract-5 {
-
-    width: 280px;
-    height: 60px;
-    left: 60px;
-    top: 550px;
-    border-radius: 45px;
-}
-
-
-.abstract-6 {
-
-    width: 250px;
-    height: 55px;
-    left: 110px;
-    top: 605px;
-    border-radius: 110px;
-}
-
-
-.abstract-7 {
-
-    width: 275px;
-    height: 55px;
-    left: 125px;
-    top: 550px;
-    border-radius: 100px;
-}
-
-
-.abstract-8 {
-
-    width: 200px;
-    height:55px;
-    left: 320px;
-    top: 580px;
-    border-radius: 110px;
-
-}
-
-
-.abstract-9 {
-
-    width: 33px;
-    height: 133px;
-    left: 485px;
-    top: 552px;
-    border-radius: 100px;
-}
-
-
-.abstract-10 {
-
-    width: 255px;
-    height: 75px;
-    left: 265px;
-    top: 550px;
-    border-radius: 59px;
-}
-
-
-.abstract-11 {
-
-    width: 120px;
-    height: 135px;
-    left: 400px;
-    top: 550px;
-    border-radius: 35px;
-}
-
-
-.abstract-12 {
-
-    width: 280px;
-    height: 60px;
-    left: 160px;
-    top: 625px;
-    border-radius: 45px;
-}
-
-
-.abstract-13 {
-
-    width: 250px;
-    height: 55px;
-    left: 160px;
-    top: 580px;
-    border-radius: 110px;
-}
-
-
-.abstract-14 {
- 
-    width: 55px;
-    height: 100px;
-    left: 340px;
-    top: 580px;
-    border-radius: 100px;
-}
-
-.project-text-holder{
-    position: absolute;
-    width: 132px;
-    height: 24px;
-    left: 20px;
-    top: 535px;
-
-
-    font-family: "Times New Roman",serif;
-    font-style:normal ;
-    font-weight:1;
-    font-size:100px;
-    line-height: 36px;
-
-    color: #000000;
-    white-space: nowrap;
-}
-
-.carousel-container {
-    width: 500px; 
-    height: 300px;
-    left: 10px;
-    top: 700px;
-    position: relative;
-    overflow: hidden;
+    width: 355px;
+    height:355px;
+    left: 5px;
+    top: 195px;
 
     background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
-
-    border-radius: 20px;
-}
-
-.carousel-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.carousel-container a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-.lower-link-holder{
-  
-
-    position: absolute;
-    width: 200px;
-    height: 55px;
-    left:150px;
-    top: 1050px;
-
-    background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
     mix-blend-mode: soft-light;
-    border-radius: 55px;
+    border-radius: 20px;
 
 
-}
+        
+    }
+    .about-text-style{
 
 
-.lower-fb-link-holder {
+        font-family: "Times New Roman",serif;
+        font-style: normal;
+        font-weight: 2px;
+        font-size:40px;
+        line-height:normal;
+        padding-left: 7%
 
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 165px;
-    top: 1053px;
+    }
+    .about-content-style{
 
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
+        font-family: "Georgia",serif;
+        font-style:normal ;
+        font-weight: 1px;
+        text-align:center;
+        line-height: 1px;
+        text-wrap:balance ;
+        font-size: 20px;
+        line-height: 30px;
 
-}
-.lower-github-link-holder {
 
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 225px;
-    top: 1050px;
+        color: #000000;
+    
 
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
-}
-.lower-linkedIn-link-holder {
 
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 285px;
-    top: 1053px;
+    }
 
-    background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center;
-    mix-blend-mode: normal;
-    border-radius: 50px;
-}
 
+    .abstract-design {
+
+        position: absolute;
+        background: #9CAFAA;
+        mix-blend-mode: difference;
+    }
+
+
+    .abstract-1 {
+
+        width: 200px;
+        height:55px;
+        left: -23px;
+        top: 580px;
+        border-radius: 110px;
+    }
+
+
+    .abstract-2 {
+
+        width: 33px;
+        height: 133px;
+        left: 0px;
+        top: 552px;
+        border-radius: 100px;
+    }
+
+
+    .abstract-3 {
+
+        width: 255px;
+        height: 75px;
+        left: 0px;
+        top: 610px;
+        border-radius: 59px;
+    }
+
+
+    .abstract-4 {
+
+        width: 120px;
+        height: 135px;
+        left: -15px;
+        top: 550px;
+        border-radius: 35px;
+    }
+
+
+    .abstract-5 {
+
+        width: 280px;
+        height: 60px;
+        left: 60px;
+        top: 550px;
+        border-radius: 45px;
+    }
+
+
+    .abstract-6 {
+
+        width: 250px;
+        height: 55px;
+        left: 110px;
+        top: 605px;
+        border-radius: 110px;
+    }
+
+
+    .abstract-7 {
+
+        width: 275px;
+        height: 55px;
+        left: 125px;
+        top: 550px;
+        border-radius: 100px;
+    }
+
+
+    .abstract-8 {
+
+        width: 200px;
+        height:55px;
+        left: 320px;
+        top: 580px;
+        border-radius: 110px;
+
+    }
+
+
+    .abstract-9 {
+
+        width: 33px;
+        height: 133px;
+        left: 485px;
+        top: 552px;
+        border-radius: 100px;
+    }
+
+
+    .abstract-10 {
+
+        width: 255px;
+        height: 75px;
+        left: 265px;
+        top: 550px;
+        border-radius: 59px;
+    }
+
+
+    .abstract-11 {
+
+        width: 120px;
+        height: 135px;
+        left: 400px;
+        top: 550px;
+        border-radius: 35px;
+    }
+
+
+    .abstract-12 {
+
+        width: 280px;
+        height: 60px;
+        left: 160px;
+        top: 625px;
+        border-radius: 45px;
+    }
+
+
+    .abstract-13 {
+
+        width: 250px;
+        height: 55px;
+        left: 160px;
+        top: 580px;
+        border-radius: 110px;
+    }
+
+
+    .abstract-14 {
+    
+        width: 55px;
+        height: 100px;
+        left: 340px;
+        top: 580px;
+        border-radius: 100px;
+    }
+
+    .project-text-holder{
+        position: absolute;
+        width: 132px;
+        height: 24px;
+        left: 20px;
+        top: 535px;
+
+
+        font-family: "Times New Roman",serif;
+        font-style:normal ;
+        font-weight:1;
+        font-size:100px;
+        line-height: 36px;
+
+        color: #000000;
+        white-space: nowrap;
+    }
+
+    .carousel-container {
+        width: 500px; 
+        height: 300px;
+        left: 10px;
+        top: 700px;
+        position: relative;
+        overflow: hidden;
+
+        background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+
+        border-radius: 20px;
+    }
+
+    .carousel-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-container a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+    .lower-link-holder{
+    
+
+        position: absolute;
+        width: 200px;
+        height: 55px;
+        left:150px;
+        top: 1050px;
+
+        background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
+        mix-blend-mode: soft-light;
+        border-radius: 55px;
+
+
+    }
+
+
+    .lower-fb-link-holder {
+
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 165px;
+        top: 1053px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+
+    }
+    .lower-github-link-holder {
+
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        left: 225px;
+        top: 1050px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+    }
+    .lower-linkedIn-link-holder {
+
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 285px;
+        top: 1053px;
+
+        background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center;
+        mix-blend-mode: normal;
+        border-radius: 50px;
+    }
 
 
