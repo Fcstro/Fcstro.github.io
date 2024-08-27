@@ -1,4 +1,5 @@
-@media (min-width: 1024px) {
+@media (min-width: 560px){
+    
     .background{
 
         width: 412px;
@@ -548,5 +549,6 @@
     }
     
     
-    
-}    
+   
+
+}

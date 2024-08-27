@@ -1,8 +1,8 @@
 
     .background {
         position: relative;
-        min-height: 1200px;
-        width: 100vw;  
+        width: 95vw;
+        height: 1200px;  
         background: linear-gradient(180deg, #234949 12%, #2C5C5C 28%, rgba(75, 156, 156, 0.6) 100%);
     }
 
@@ -423,14 +423,14 @@
 
     position: absolute;
     width: 355px;
-    height:355px;
+    height:340px;
     left: 5px;
     top: 195px;
 
     background: linear-gradient(0deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
-    mix-blend-mode: soft-light;
+    mix-blend-mode:soft-light;
     border-radius: 20px;
-
+    
 
         
     }
@@ -438,18 +438,19 @@
 
 
         font-family: "Times New Roman",serif;
-        font-style: normal;
+        font-style: bolder;
         font-weight: 2px;
         font-size:40px;
         line-height:normal;
         padding-left: 7%
+
 
     }
     .about-content-style{
 
         font-family: "Georgia",serif;
         font-style:normal ;
-        font-weight: 1px;
+        font-weight:bold;
         text-align:center;
         line-height: 1px;
         text-wrap:balance ;
@@ -462,7 +463,6 @@
 
 
     }
-
 
     .abstract-design {
 
@@ -634,7 +634,7 @@
         width: 500px; 
         height: 300px;
         left: 10px;
-        top: 700px;
+        top: 680px;
         position: relative;
         overflow: hidden;
 
@@ -665,7 +665,7 @@
         width: 200px;
         height: 55px;
         left:150px;
-        top: 1050px;
+        top: 1015px;
 
         background: linear-gradient(90deg, #40534C 0%, #729487 78%, #8FB9A9 100%);
         mix-blend-mode: soft-light;
@@ -681,7 +681,7 @@
         width: 50px;
         height: 50px;
         left: 165px;
-        top: 1053px;
+        top: 1018px;
 
         background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/angoienw2wu8c1aqdrge.png);
         background-size: cover;
@@ -697,7 +697,7 @@
         width: 55px;
         height: 55px;
         left: 225px;
-        top: 1050px;
+        top: 1015px;
 
         background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724068194/zkvfqyr1wr1oxcmdu1pt.png);
         background-size: cover;
@@ -712,7 +712,7 @@
         width: 50px;
         height: 50px;
         left: 285px;
-        top: 1053px;
+        top: 1018px;
 
         background-image:url(https://res.cloudinary.com/drkmgpcad/image/upload/v1724243848/bui9sybignm8c5suxl1o.png);
         background-size: cover;
