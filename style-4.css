@@ -188,6 +188,7 @@
     .rect-design {
         position: absolute;
         width:10%;
+        height: 101%!important;
         background: linear-gradient(270deg, #677D6A 59.5%, #7F9A83 100%);
         mix-blend-mode: hard-light;
     }
