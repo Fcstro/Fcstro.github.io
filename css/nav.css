@@ -1,0 +1,76 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header wrapper */
+  header {
+    background-color: #c7baba; /* darker gray (like screenshot) */
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .snap-link {
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  /* Left logo/title */
+  header h1,
+  header h1.site-title {
+    font-size: 2.5rem;
+    color: #E32D30; 
+    font-weight: bold;
+  }
+
+  header h1.site-title a {
+    text-decoration: none; 
+    color: inherit; 
+    display: inline-block; 
+    transition: color 0.3s ease, transform 0.6s ease; 
+  }
+
+  header h1.site-title a:hover {
+    border: #000 2px; /* Change to a lighter red on hover */
+    transform: scale(1.02); 
+    text-shadow: #000 0px 2px 1px; /* Add a shadow effect on hover */
+  }
+  
+  /* Nav bar */
+  nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Nav list */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  /* Nav links */
+  nav ul li a {
+    text-decoration: none;
+    color: #000; /* black */
+    font-weight: bold;
+    font-size: 2rem;
+    transition: color 0.3s ease, transform 0.6s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #E32D30;
+    transform: scale(1.5); 
+    text-shadow: #0C0601 0px 2px 1px;
+  }
+
+  /* Active nav link style */
+nav ul li a.active {
+  color: #E32D30;
+  transform: scale(1.1);
+  text-shadow: #0C0601 0px 2px 1px;
+}

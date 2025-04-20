@@ -1,36 +1,63 @@
+document.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+    if (window.scrollY === 0) {
+        header.style.display = "block"; // Show header when at the top
+    } else {
+        header.style.display = "none"; // Hide header when scrolling down
+    }
+});
 
-const images = [
-    'https://res.cloudinary.com/drkmgpcad/image/upload/v1724236655/20240522_223149_0000_oil3uj.png',
-    'https://res.cloudinary.com/drkmgpcad/image/upload/v1724236655/IMG_20240806_213550_552_gbsnvm.jpg'
-];
+// Add smooth scrolling for navigation links
+document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default link behavior
+        const targetId = this.getAttribute("href").substring(1); // Get the target ID
+        const targetElement = document.getElementById(targetId);
 
-let currentIndex = 0;
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: "smooth", // Smooth scrolling
+                block: "start" // Align to the top of the target
+            });
+        }
+    });
+});
+ // Initialize EmailJS with your User ID
+ (function() {
+    emailjs.init("1RFR0DddZI3A5oN3Z"); // public key
+})();
 
-function rotateImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    document.getElementById('auto-image').src = images[currentIndex];
-}
-
-setInterval(rotateImage, 3000); 
-
-
-
-const project_images = [
-    { src: "https://res.cloudinary.com/drkmgpcad/image/upload/v1724322231/zfi6hsh5vje4b9lyfjah.png", link: "https://github.com/Fcstro/CS_Journey/tree/main/Dev_Buddy" },
-    { src: "https://res.cloudinary.com/drkmgpcad/image/upload/v1724322231/nwbq4fzyp0ndmcs7hlu8.png", link: "https://github.com/Fcstro/CS_Journey/tree/main/The%20Bank" },
-    { src: "https://res.cloudinary.com/drkmgpcad/image/upload/v1724322232/p5yxchg7tpqtcec6igx6.png", link: "https://github.com/Fcstro/CS_Journey/tree/main/BMI%20Calculator" },
-    { src: "https://res.cloudinary.com/drkmgpcad/image/upload/v1724322232/qdx9u9nso1fbfpa76hsm.png", link: "https://github.com/Fcstro/CS_Journey/tree/main/My%20Fav.%20Animals%20HTML" },
-    { src: "https://res.cloudinary.com/drkmgpcad/image/upload/v1724322232/ano34dtrcsobcfijjc6j.png", link: "https://github.com/Fcstro/CS_Journey/tree/main/Cooking%20Buddy" }
-];
-
-let project_images_currentIndex = 0;
-const carouselImage = document.getElementById('carousel-image');
-const carouselLink = document.getElementById('carousel-link');
-
-function carouselChangeImage() {
-    project_images_currentIndex = (project_images_currentIndex + 1) % project_images.length;
-    carouselImage.src = project_images[project_images_currentIndex].src;
-    carouselLink.href = project_images[project_images_currentIndex].link;
-}
-
-setInterval(carouselChangeImage, 3000); 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const status = document.getElementById('form-status');
+    status.textContent = 'Sending...';
+    status.style.color = 'blue';
+    
+    // Get current time
+    const now = new Date();
+    const timeString = now.toLocaleString();
+    
+    // Get form values - matching your template parameters
+    const formData = {
+        title: document.getElementById('title').value,
+        name: document.getElementById('name').value,
+        time: timeString,
+        message: document.getElementById('message').value,
+        email: document.getElementById('email').value
+    };
+    
+    // Send email
+    emailjs.send('service_g1ucldl', 'template_b8xluse', formData)
+        .then(function(response) {
+            status.textContent = 'Message sent successfully!';
+            status.style.color = 'green';
+            document.getElementById('contact-form').reset();
+            alert('Your message has been sent successfully!');
+        }, function(error) {
+            status.textContent = 'Failed to send message. Please try again.';
+            status.style.color = 'red';
+            alert('Failed to send your message. Please try again later.');
+            console.error('EmailJS Error:', error);
+        });
+});

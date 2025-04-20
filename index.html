@@ -3,117 +3,267 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fcstro's Portfolio</title>
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="style-560px.css">
-    <link rel="stylesheet" href="style-790px.css">
-    <link rel="stylesheet" href="style-1024px.css">
-    <link rel="stylesheet" href="style-1375px.css">
-    <link rel="stylesheet" href="style-1490px.css">
+    <title>Fcstro</title>
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
- 
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/svg" href="images/favicon.svg" sizes="any">
     
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
-<body  class="background">
-
-
-    <div class="box-info-bg"></div>
-
-    <div class="box-name-holder"></div>
-    <div class="logo-person-style"></div>
-    <h1 class="text-name-style">Castro, Fredderico G,</h1>
-
-    <div class="box-loc-holder"></div>
-    <div class="loc-logo-style" ></div>
-    <h1 class="text-loc-style">Pandi, Bulacan, Philippines</h1>
-    <div class="box-email-holder"></div>
-    <div class="email-logo-style"></div>
-
-    <a class="text-email-style" href="mailto:f.cstro02004@gmail.com" target="_blank">f.cstro02004@gmail.com</a>
-
-
-    <div class="rect-design rectangle-1"></div>
-    <div class="rect-design rectangle-2"></div>
-    <div class="rect-design rectangle-3"></div>
-    <div class="rect-design rectangle-4"></div>
-    <div class="rect-design rectangle-5"></div>
-    <div class="rect-design rectangle-6"></div>
-    <div class="rect-design rectangle-7"></div>
-    <div class="rect-design rectangle-8"></div>
-    <div class="rect-design rectangle-9"></div>
-
-
-    <div class="pic-container">
-        <img id="auto-image" src="https://res.cloudinary.com/drkmgpcad/image/upload/v1724236655/20240522_223149_0000_oil3uj.png" alt="Auto Changing Image">
-    </div>
-
-
-    <div class="link-holder"> </div>
-    <a class="fb-link-holder", href="https://www.facebook.com/F.cstro/" target="_blank"></a>
-    <a class="github-link-holder", href="https://github.com/Fcstro/CS_Journey" target="_blank"></a>
-    <a class="linkedIn-link-holder", href="https://www.linkedin.com/in/fcstro/" target="_blank"></a>
-
-    <div class="about-bg"><h1 class=" about-text-style" >About Me:
-        <h2 class =about-content-style>
-            Hi, I'm Fredderico, but you can call me 'Yco.' I'm a web developer and a graduate of the College of Mary Immaculate. I'm proficient in Python and always eager to expand my skills and knowledge.
-
-
-        </h2>
-    </h1>
-    </div>
-    <section class="abstract-holder">
-        <div class="abstract-design abstract-1"></div>
-        <div class="abstract-design abstract-2"></div>
-        <div class="abstract-design abstract-3"></div>
-        <div class="abstract-design abstract-4"></div>
-        <div class="abstract-design abstract-5"></div>
-        <div class="abstract-design abstract-6"></div>
-        <div class="abstract-design abstract-7"></div>
-        <div class="abstract-design abstract-8"></div>
-        <div class="abstract-design abstract-9"></div>
-        <div class="abstract-design abstract-10"></div>
-        <div class="abstract-design abstract-11"></div>
-        <div class="abstract-design abstract-12"></div>
-        <div class="abstract-design abstract-13"></div>
-        <div class="abstract-design abstract-14"></div>
-        
-
-    </section>
-
-    <h1 class="project-text-holder">PROJECTS</h1>
-    <div class="rect-design rectangle-10"></div>
-    <div class="rect-design rectangle-11"></div>
-    <div class="rect-design rectangle-12"></div>
-    <div class="rect-design rectangle-13"></div>
-    <div class="rect-design rectangle-14"></div>
-    <div class="rect-design rectangle-15"></div>
-    <div class="rect-design rectangle-16"></div>
-    <div class="rect-design rectangle-17"></div>
-    <div class="rect-design rectangle-18"></div>
-
-    <div class="carousel-container">
-        <a id="carousel-link" href="# "target="_blank">
-            <img id="carousel-image" src="https://res.cloudinary.com/drkmgpcad/image/upload/v1724322231/zfi6hsh5vje4b9lyfjah.png" alt="Image 1">
-        </a>
-    </div>
+<body>
+  <header>
+    <h1 class="site-title"><a href="#home-container" class="snap-link">Fredderico</a></h1> 
+    <nav>
+      <ul>
+        <li><a href="#home" class="snap-link">Home</a></li> 
+        <li><a href="#about" class="snap-link">About</a></li>
+        <li><a href="#projects" class="snap-link">Projects</a></li>
+        <li><a href="#skills"  class="snap-link">Skills</a></li>
+        <li><a href="#contact"  class="snap-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
     
+    <main>
+        <section id="home" class="home-container"> <!-- Added id -->
+            <div class="intro">
+              <h2>Hello, I’m <span class="item highlight">Fredderico<span class="shabam">!</span></span></h2>
+          
+              <div class="socials">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              </div>
+          
+              <div class="actions">
+                <a href="#" class="resume">RESUME</a>
+                <a href="#contact" class="button">Contact me?</a>
+              </div>
+            </div>
+          
+              <div class="logo">
+              <img src="images/logo.svg" alt="Fcstro">
+              </div>
+          </section>
+          
+          <section id="about" class="about-container"> 
+            <h2>About Me</h2>
+            
+            <div class="about-content">
+                <div class="about-details">
+                    <p><strong>Name: Castro, Fredderico </strong> </p>
+                    <p><strong>Age: 21 </strong></p>
+                    <p><strong>Birthday: Jan. 02, 2004</strong> </p>
+                    <p><strong>Sex: Male</strong> </p>
+                    <p><strong>Location: Pandi, Bulacan, Philippines</strong> </p>
+                </div>
+                
+                <div class="about-image">
+                  <img src="images/favicon.png" alt="Fcstro" class="profile-pic">
+                  <img src="images/back-image.png" alt="Back Image" class="back-pic"> <!-- Add this -->
+                </div>
+                
+                <hr>
+                
+                <p>As an enthusiastic and detail-oriented incoming fourth-year Bachelor of Science in Computer Science student at the College of Mary Immaculate, I am actively seeking an On-the-Job Training (OJT) opportunity to deepen my skills in both front-end and back-end development. With a solid foundation in developing dynamic web applications using Node.js, PHP, and MySQL, I am keen to explore and learn new tools and frameworks within the IT industry. I am passionate about contributing to innovative projects, collaborating effectively with development teams, and gaining practical insights into user interface design, server-side logic, and database optimization.</p>
+            </div>
+          </section>
+
+          <section id="projects" class="projects-container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="stack">
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Collored Lotto</h3>
+                            <p>Description of project 1 goes here with some details about what it does.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="stack">
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1569762825621-2dab96140a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzNDkxMQ&ixlib=rb-1.2.1&q=80&w=400" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>The Mood</h3>
+                            <p>Description of project 2 with different content that explains its purpose.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="stack">
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>The New York Clone</h3>
+                            <p>Final project description showing what makes this one special.</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack">
+                  <div class="card">
+                      <div class="image">
+                          <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 3">
+                      </div>
+                      <div class="project-info">
+                          <h3>The Mood</h3>
+                          <p>Final project description showing what makes this one special.</p>
+                          <a href="#" class="project-link">View Project</a>
+                      </div>
+                  </div>
+              </div>  
+            </div>
+          </section>
+          <section id="skills" class="skills-container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-html5" style="font-size: 3rem; color: #000;"></i>
+                    
+                  </div>
+                  <div class="icons-info">
+                    <h4>HTML</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-css3-alt" style="font-size: 3rem; color: #000;"></i>
+                   
+                  </div>
+                  <div class="icons-info">
+                    <h4>CSS</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-js-square" style="font-size: 3rem; color: #000;"></i>
+                    
+                  </div>
+                  <div class="icons-info">
+                    <h4>JavaScript</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-node-js" style="font-size: 3rem; color: #000;"></i>
+        
+                  </div>
+                  <div class="icons-info">
+                    <h4>Node JS</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-php" style="font-size: 3rem; color: #000;"></i>
+                    
+                  </div>
+                  <div class="icons-info">
+                    <h4>PHP</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fas fa-database" style="font-size: 3rem; color: #000;"></i>
+                    
+                  </div>
+                  <div class="icons-info">
+                    <h4>MySQL</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-python" style="font-size: 3rem; color: #000;"></i>
+                  </div>
+                  <div class="icons-info">
+                    <h4>Python</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fas fa-c" style="font-size: 3rem; color: #000;"></i>
+                  </div>
+                  <div class="icons-info">
+                    <h4>C++</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-git-alt" style="font-size: 3rem; color: #000;"></i>
+                  </div>
+                  <div class="icons-info">
+                    <h4>Git</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
+                    <i class="fab fa-linux" style="font-size: 3rem; color: #000;"></i>
+                  </div>
+                  <div class="icons-info">
+                    <h4>Linux</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-details">
+                    <p><strong>Email:</strong> your-email@example.com</p>
+                    <p><strong>Phone:</strong> +123 456 7890</p>
+                    <p><strong>Location:</strong> Pandi, Bulacan, Philippines</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="text" id="title" placeholder="Subject" required>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div id="form-status"></div>
+          </section>
+      </main>
 
 
-
-
-   
-
-
-
-    <script src="script.js"></script>
 </body>
-
-
-
-<div class="lower-link-holder"> </div>
-    <a class="lower-fb-link-holder", href="https://www.facebook.com/F.cstro/" target="_blank"></a>
-    <a class="lower-github-link-holder", href="https://github.com/Fcstro/CS_Journey" target="_blank"></a>
-    <a class="lower-linkedIn-link-holder", href="https://www.linkedin.com/in/fcstro/" target="_blank"></a>
-
-
 </html>

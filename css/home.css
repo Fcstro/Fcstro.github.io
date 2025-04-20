@@ -1,0 +1,102 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e6dcdc;
+
+  }
+  
+  .intro {
+    text-align: left;
+    text-indent: 10%;
+  }
+  
+  .intro h2 {
+    font-size: 2.8rem;
+    margin: 0 0 1rem 0;
+  }
+  
+  .highlight {
+    color: #E32D30;
+    font-size: 200%;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+  
+  .shabam {
+    color: #ED8428 !important;
+  }
+ 
+  
+  /* Font Awesome social icons */
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .socials a {
+    color: #000;
+    font-size: 3rem;
+    transition: color 0.3s ease;
+  }
+  
+  .socials a:hover {
+    color: #E32D30;
+  }
+  
+  /* Action links */
+  .actions {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    justify-content: center;
+    text-indent: 0% ;
+    font-size: 2rem;
+  }
+  
+  .resume {
+    color: #ED8428;
+    font-weight: bold;
+    text-decoration: none;
+ 
+
+  }
+  
+  .resume:hover {
+    text-decoration: underline;
+    color: #E32D30;
+    
+  }
+  
+  .button {
+
+    color: #E32D30;
+   font-weight: bold;
+    text-decoration: none;
+
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: #ED8428;
+  }
+  
+  /* Logo box */
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+  } 
+  

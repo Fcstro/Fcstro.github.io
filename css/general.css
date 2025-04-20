@@ -1,0 +1,31 @@
+html {
+    scroll-behavior:auto; /* Enables smooth scrolling */
+  }
+body {
+    font-family: 'Itim';
+    background-color: #D4C9C9; /* Light pink background */
+    color: #000;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    scroll-behavior: smooth; /* Smooth scrolling */
+    height: 100%; /* Ensure full height for snapping */
+  
+  }
+  
+  main {
+    scroll-snap-type: y proximity; /* Changed from mandatory to proximity */
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    scroll-snap-align: start;
+    min-height: 100vh; /* Changed from height to min-height */
+    padding: 20px;
+    box-sizing: border-box;
+}
