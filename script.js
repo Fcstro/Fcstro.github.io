@@ -1,11 +1,3 @@
-document.addEventListener("scroll", function () {
-    const header = document.querySelector("header");
-    if (window.scrollY === 0) {
-        header.style.display = "block"; // Show header when at the top
-    } else {
-        header.style.display = "none"; // Hide header when scrolling down
-    }
-});
 
 // Add smooth scrolling for navigation links
 document.querySelectorAll("nav a").forEach(link => {
@@ -47,14 +39,17 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         email: document.getElementById('email').value
     };
     
+    console.log("Sending email with data:", formData);
     // Send email
     emailjs.send('service_g1ucldl', 'template_b8xluse', formData)
         .then(function(response) {
+            console.log("Email sent successfully:", response);
             status.textContent = 'Message sent successfully!';
             status.style.color = 'green';
             document.getElementById('contact-form').reset();
             alert('Your message has been sent successfully!');
         }, function(error) {
+            console.error("Failed to send email:", error);
             status.textContent = 'Failed to send message. Please try again.';
             status.style.color = 'red';
             alert('Failed to send your message. Please try again later.');

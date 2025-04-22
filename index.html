@@ -17,6 +17,7 @@
     <link rel="icon" type="image/svg" href="images/favicon.svg" sizes="any">
     
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+   
 </head>
 <body>
   <header>
@@ -44,13 +45,12 @@
               </div>
           
               <div class="actions">
-                <a href="#" class="resume">RESUME</a>
-                <a href="#contact" class="button">Contact me?</a>
+                <a href="resume/Fcstro's Resume.pdf" class="resume" target="_blank">RESUME</a>
+                <a href="" class="button">Contact me?</a>
               </div>
             </div>
-          
               <div class="logo">
-              <img src="images/logo.svg" alt="Fcstro">
+                <img src="images/logo.svg" alt="Fcstro">
               </div>
           </section>
           
@@ -62,13 +62,13 @@
                     <p><strong>Name: Castro, Fredderico </strong> </p>
                     <p><strong>Age: 21 </strong></p>
                     <p><strong>Birthday: Jan. 02, 2004</strong> </p>
-                    <p><strong>Sex: Male</strong> </p>
+                    <p><strong>Email:fcastro02004@gmail.com
                     <p><strong>Location: Pandi, Bulacan, Philippines</strong> </p>
                 </div>
                 
                 <div class="about-image">
                   <img src="images/favicon.png" alt="Fcstro" class="profile-pic">
-                  <img src="images/back-image.png" alt="Back Image" class="back-pic"> <!-- Add this -->
+                  <img src="images/fcstrologo.png" alt="Back Image" class="back-pic"> <!-- Add this -->
                 </div>
                 
                 <hr>
@@ -246,17 +246,11 @@
           </section>
           <section id="contact" class="contact-container">
             <h2>Contact Me</h2>
-            <div class="contact-content">
-                <div class="contact-details">
-                    <p><strong>Email:</strong> your-email@example.com</p>
-                    <p><strong>Phone:</strong> +123 456 7890</p>
-                    <p><strong>Location:</strong> Pandi, Bulacan, Philippines</p>
-                </div>
-                <form id="contact-form">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
-                    <input type="text" id="title" placeholder="Subject" required>
-                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <form id="contact-form" class="form__group field" action="https://formspree.io/f/xjvovqzj" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required class="form__field"> 
+                    <input type="email" id="email"name="email" placeholder="Your Email" required class="form__field">
+                    <input type="text" id="title" name="title" placeholder="Subject" required class="form__field">
+                    <textarea id="message" rows="5" name="message" placeholder="Your Message" required class="form__field"></textarea>
                     <button type="submit">Send Message</button>
                 </form>
             </div>
@@ -265,5 +259,6 @@
       </main>
 
 
+      <script src="script.js"></script>
 </body>
 </html>
