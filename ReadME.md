@@ -7,8 +7,7 @@ This is the source code for Fredderico Castro's personal portfolio website. The 
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [License](#license)
+
 
 ## Overview
 
