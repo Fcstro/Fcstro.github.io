@@ -135,3 +135,60 @@
     font-weight: 700;
     margin: 0;
 }
+
+/* Add this to your skills.css */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 2rem 0;
+      }
+
+    .skills-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns instead of auto-fit */
+      gap: 1.5rem;
+    }
+  
+    .card-skills {
+      aspect-ratio: 1/1; /* More square shape */
+      padding: 0.5rem;
+      width: 90%; /* Smaller width */
+      margin: 0 auto; /* Center the cards */
+    }
+  
+    .icons-skills i {
+      font-size: 2rem; /* Smaller icons */
+    }
+  
+    .icons-info h4 {
+      font-size: 1rem; /* Smaller text */
+    }
+  
+    .stack-skills {
+      max-width: 100%; /* Full width of grid cell */
+    }
+  
+    .stack-skills:hover {
+      transform: none; /* Remove rotation on mobile */
+    }
+  
+    .card-skills:before,
+    .card-skills:after {
+      display: none; /* Remove the layered effect on mobile */
+    }
+  }
+  
+  /* For very small screens */
+  @media (max-width: 480px) {
+    .skills-grid {
+      grid-template-columns: 1fr; /* Single column on very small screens */
+      gap: 1rem;
+    }
+  
+    .card-skills {
+      width: 80%;
+    }
+  }

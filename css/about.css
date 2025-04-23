@@ -99,3 +99,19 @@ hr {
     flex-basis: 100%;
     margin: 20px 0;
 }
+/* Add this to your about.css */
+@media (max-width: 768px) {
+    .about-image {
+      display: none;
+    }
+    
+    .about-content {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .about-container h2 {
+      margin-left: 0;
+      text-align: center;
+    }
+  }

@@ -29,3 +29,16 @@ section {
     padding: 20px;
     box-sizing: border-box;
 }
+
+/* Add this to your general.css */
+@media (max-width: 768px) {
+    section {
+      padding: 20px 10px;
+    }
+    
+    .home-container {
+      height: auto;
+      min-height: 100vh;
+      padding-top: 80px;
+    }
+  }

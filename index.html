@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" type="image/svg" href="images/favicon.svg" sizes="any">
     
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
@@ -22,16 +23,30 @@
 <body>
   <header>
     <h1 class="site-title"><a href="#home-container" class="snap-link">Fredderico</a></h1> 
-    <nav>
+    <div class="mobile-menu-toggle">
+      <img src="images/favicon.svg" alt="Menu" class="burger-icon">
+    </div>
+    <nav class="desktop-nav">
       <ul>
         <li><a href="#home" class="snap-link">Home</a></li> 
         <li><a href="#about" class="snap-link">About</a></li>
         <li><a href="#projects" class="snap-link">Projects</a></li>
-        <li><a href="#skills"  class="snap-link">Skills</a></li>
-        <li><a href="#contact"  class="snap-link">Contact</a></li>
+        <li><a href="#skills" class="snap-link">Skills</a></li>
+        <li><a href="#contact" class="snap-link">Contact</a></li>
+        
       </ul>
     </nav>
   </header>
+  <div class="mobile-side-nav">
+    <div class="close-btn">&times;</div>
+    <ul>
+      <li><a href="#home" class="snap-link">Home</a></li> 
+      <li><a href="#about" class="snap-link">About</a></li>
+      <li><a href="#projects" class="snap-link">Projects</a></li>
+      <li><a href="#skills" class="snap-link">Skills</a></li>
+      <li><a href="#contact" class="snap-link">Contact</a></li>
+    </ul>
+  </div>
     
     <main>
         <section id="home" class="home-container"> <!-- Added id -->
@@ -39,9 +54,9 @@
               <h2>Hello, I’m <span class="item highlight">Fredderico<span class="shabam">!</span></span></h2>
           
               <div class="socials">
-                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Fcstro" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/F.cstro" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/fcstro/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
               </div>
           
               <div class="actions">
@@ -67,8 +82,8 @@
                 </div>
                 
                 <div class="about-image">
-                  <img src="images/favicon.png" alt="Fcstro" class="profile-pic">
-                  <img src="images/fcstrologo.png" alt="Back Image" class="back-pic"> <!-- Add this -->
+                  <img src="images/front.png" alt="Fcstro" class="profile-pic">
+                  <img src="images/back.jpg" alt="Back Image" class="back-pic"> 
                 </div>
                 
                 <hr>
@@ -83,12 +98,12 @@
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 1">
+                            <img src="images/ColoredLotto.png" alt="Project 1">
                         </div>
                         <div class="project-info">
                             <h3>Collored Lotto</h3>
-                            <p>Description of project 1 goes here with some details about what it does.</p>
-                            <a href="#" class="project-link">View Project</a>
+                            <p>A real-time color-based lottery game inspired by traditional lotto mechanics. It uses WebSockets for instant communication, allowing players to place bets and see results live.</p>
+                            <a href="https://github.com/Fcstro/Colored-Lotto" class="project-link">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -96,12 +111,12 @@
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="https://images.unsplash.com/photo-1569762825621-2dab96140a1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzNDkxMQ&ixlib=rb-1.2.1&q=80&w=400" alt="Project 2">
+                            <img src="images/TheMood.png" alt="Project 2">
                         </div>
                         <div class="project-info">
                             <h3>The Mood</h3>
-                            <p>Description of project 2 with different content that explains its purpose.</p>
-                            <a href="#" class="project-link">View Project</a>
+                            <p>A social media app inspired by Twitter where users can post their thoughts as "moods" and interact through likes, comments, reposts, and follows.</p>
+                            <a href="https://github.com/Fcstro/The-Mood" class="project-link">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -109,12 +124,12 @@
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 3">
+                            <img src="images/theNewYorkClone.png" alt="Project 3">
                         </div>
                         <div class="project-info">
                             <h3>The New York Clone</h3>
-                            <p>Final project description showing what makes this one special.</p>
-                            <a href="#" class="project-link">View Project</a>
+                            <p>A digital newspaper website that replicates the look and feel of a classic news site, powered by the New York Times API to deliver real-time articles and top stories</p>
+                            <a href="https://fcstro.github.io/The_New_York_Clone/" class="project-link">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -122,12 +137,12 @@
                 <div class="stack">
                   <div class="card">
                       <div class="image">
-                          <img src="https://images.unsplash.com/photo-1600078686889-8c42747c25fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0NDMzMjg5Nw&ixlib=rb-1.2.1&q=80&w=400" alt="Project 3">
+                          <img src="images/Happy-Ending.png" alt="Project 3">
                       </div>
                       <div class="project-info">
-                          <h3>The Mood</h3>
-                          <p>Final project description showing what makes this one special.</p>
-                          <a href="#" class="project-link">View Project</a>
+                          <h3>Happy Ending</h3>
+                          <p>A PHP-based e-commerce platform dedicated to selling coffins and burial urns, providing a respectful and user-friendly shopping experience for end-of-life needs.</p>
+                          <a href="https://github.com/Fcstro/Happy-Ending" class="project-link">View Project</a>
                       </div>
                   </div>
               </div>  
