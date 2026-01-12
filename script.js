@@ -57,7 +57,55 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         });
 });
 
+// Copy email function
+function copyEmail() {
+    const emailText = 'fcastro02004@gmail.com';
+    const tooltip = document.getElementById('email-tooltip');
+    
+    navigator.clipboard.writeText(emailText).then(function() {
+        // Show copied feedback
+        tooltip.textContent = 'Copied!';
+        tooltip.style.background = '#4CAF50';
+        
+        // Reset after 2 seconds
+        setTimeout(function() {
+            tooltip.textContent = 'Click to copy';
+            tooltip.style.background = '#333';
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Failed to copy email: ', err);
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = emailText;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+        
+        // Show copied feedback
+        tooltip.textContent = 'Copied!';
+        tooltip.style.background = '#4CAF50';
+        
+        setTimeout(function() {
+            tooltip.textContent = 'Click to copy';
+            tooltip.style.background = '#333';
+        }, 2000);
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+    // Email tooltip hover functionality
+    const emailText = document.getElementById('email-text');
+    const tooltip = document.getElementById('email-tooltip');
+    
+    emailText.addEventListener('mouseenter', function() {
+        tooltip.style.opacity = '1';
+    });
+    
+    emailText.addEventListener('mouseleave', function() {
+        tooltip.style.opacity = '0';
+    });
+    
     // Mobile menu functionality
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const mobileSideNav = document.querySelector('.mobile-side-nav');

@@ -66,17 +66,36 @@
     object-fit: cover;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.6s ease;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
     position: absolute;
+    opacity: 0;
 }
 
 .about-image:hover .profile-pic {
-    transform: rotateY(180deg);
+    animation: fadeOut 0.3s ease;
+    animation-fill-mode: forwards;
 }
 
 .about-image:hover .back-pic {
-    transform: rotateY(0deg);
+    animation: fadeIn 0.3s ease 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .about-content p {
@@ -85,13 +104,14 @@
     line-height: 1.6;
     color: #000;
     text-align: justify;
+    font-weight: bold;
     margin-top: 20px; /* Add space above paragraph */
 }
 
 .about-content strong {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
-
+    color: #000;
     display: block; /* Make each strong element take full width */
 }
 
@@ -115,3 +135,25 @@ hr {
       text-align: center;
     }
   }
+
+/* Email copy functionality */
+.email-copyable {
+  position: relative;
+  cursor: pointer;
+}
+
+.email-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}

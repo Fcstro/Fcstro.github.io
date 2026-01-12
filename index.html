@@ -60,8 +60,8 @@
               </div>
           
               <div class="actions">
-                <a href="resume/Fcstro's Resume.pdf" class="resume" target="_blank">RESUME</a>
-                <a href="" class="button">Contact me?</a>
+                <a href="resume/Fcstro_Resume.pdf" class="resume" target="_blank">RESUME</a>
+                <a href="#contact" class="button" class="snap-link">Contact me?</a>
               </div>
             </div>
               <div class="logo">
@@ -75,30 +75,46 @@
             <div class="about-content">
                 <div class="about-details">
                     <p><strong>Name: Castro, Fredderico </strong> </p>
-                    <p><strong>Age: 21 </strong></p>
+                    <p><strong>Age: 22 </strong></p>
                     <p><strong>Birthday: Jan. 02, 2004</strong> </p>
-                    <p><strong>Email:fcastro02004@gmail.com
+                    <p><strong>Email: <span id="email-text" class="email-copyable" onclick="copyEmail()">fcastro02004@gmail.com<span id="email-tooltip" class="email-tooltip">Click to copy</span></span></strong> </p>
                     <p><strong>Location: Pandi, Bulacan, Philippines</strong> </p>
                 </div>
                 
                 <div class="about-image">
-                  <img src="images/front.png" alt="Fcstro" class="profile-pic">
+                  <img src="images/front.jpg" alt="Fcstro" class="profile-pic">
                   <img src="images/back.jpg" alt="Back Image" class="back-pic"> 
                 </div>
                 
                 <hr>
                 
-                <p>As an enthusiastic and detail-oriented incoming fourth-year Bachelor of Science in Computer Science student at the College of Mary Immaculate, I am actively seeking an On-the-Job Training (OJT) opportunity to deepen my skills in both front-end and back-end development. With a solid foundation in developing dynamic web applications using Node.js, PHP, and MySQL, I am keen to explore and learn new tools and frameworks within the IT industry. I am passionate about contributing to innovative projects, collaborating effectively with development teams, and gaining practical insights into user interface design, server-side logic, and database optimization.</p>
+                <p>An enthusiastic and detail-oriented Computer Science 4th year student at the College of Mary Immaculate, with completed On-the-Job Training at Elisachem Industries OPC, where I gained hands-on experience across both IT and Marketing functions. Proficient in server-side technologies such as Node.js, PHP, and MySQL, and familiar with modern front-end development practices, I effectively applied academic concepts to real-world projects. This experience strengthened my technical skills, problem-solving abilities, and adaptability in a professional environment. Looking to be a working student, I am eager to gain further industry exposure, deepen my practical knowledge, and contribute to innovative projects across diverse IT industries while continuously expanding my expertise in web development and related technologies.
+
+</p>
             </div>
           </section>
 
           <section id="projects" class="projects-container">
             <h2>Projects</h2>
             <div class="projects-grid">
+
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="images/ColoredLotto.png" alt="Project 1">
+                            <img src="images/Datasaurs.png" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                          <h3>Datasaurs</h3>
+                            <p>A dinosaur knowledge search engine built with Flask and MongoDB, offering real-time web scraping, TF-IDF search ranking, type-ahead suggestions</p>
+                            <a href="https://github.com/Fcstro/Datasaurs" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack">
+                    <div class="card">
+                        <div class="image">
+                            <img src="images/ColoredLotto.png" alt="Project 2">
                         </div>
                         <div class="project-info">
                             <h3>Collored Lotto</h3>
@@ -111,7 +127,7 @@
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="images/TheMood.png" alt="Project 2">
+                            <img src="images/TheMood.png" alt="Project 3">
                         </div>
                         <div class="project-info">
                             <h3>The Mood</h3>
@@ -124,7 +140,7 @@
                 <div class="stack">
                     <div class="card">
                         <div class="image">
-                            <img src="images/theNewYorkClone.png" alt="Project 3">
+                            <img src="images/theNewYorkClone.png" alt="Project 4">
                         </div>
                         <div class="project-info">
                             <h3>The New York Clone</h3>
@@ -137,7 +153,7 @@
                 <div class="stack">
                   <div class="card">
                       <div class="image">
-                          <img src="images/Happy-Ending.png" alt="Project 3">
+                          <img src="images/Happy-Ending.png" alt="Project 5">
                       </div>
                       <div class="project-info">
                           <h3>Happy Ending</h3>
@@ -198,6 +214,16 @@
               <div class="stack-skills">
                 <div class="card-skills">
                   <div class="icons-skills">
+                    <i class="fab fa-python" style="font-size: 3rem; color: #000;"></i>
+                  </div>
+                  <div class="icons-info">
+                    <h4>Python</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="stack-skills">
+                <div class="card-skills">
+                  <div class="icons-skills">
                     <i class="fab fa-php" style="font-size: 3rem; color: #000;"></i>
                     
                   </div>
@@ -209,7 +235,7 @@
               <div class="stack-skills">
                 <div class="card-skills">
                   <div class="icons-skills">
-                    <i class="fas fa-database" style="font-size: 3rem; color: #000;"></i>
+                    <i class="fab fa-database" style="font-size: 3rem; color: #000;"></i>
                     
                   </div>
                   <div class="icons-info">
@@ -220,13 +246,15 @@
               <div class="stack-skills">
                 <div class="card-skills">
                   <div class="icons-skills">
-                    <i class="fab fa-python" style="font-size: 3rem; color: #000;"></i>
+                    <i class="fas fa-database" style="font-size: 3rem; color: #000;"></i>
+                    
                   </div>
                   <div class="icons-info">
-                    <h4>Python</h4>
+                    <h4>MongoDB</h4>
                   </div>
                 </div>
               </div>
+              
               <div class="stack-skills">
                 <div class="card-skills">
                   <div class="icons-skills">
@@ -262,10 +290,22 @@
           <section id="contact" class="contact-container">
             <h2>Contact Me</h2>
                 <form id="contact-form" class="form__group field" action="https://formspree.io/f/xjvovqzj" method="POST">
-                    <input type="text" id="name" name="name" placeholder="Your Name" required class="form__field"> 
-                    <input type="email" id="email"name="email" placeholder="Your Email" required class="form__field">
-                    <input type="text" id="title" name="title" placeholder="Subject" required class="form__field">
-                    <textarea id="message" rows="5" name="message" placeholder="Your Message" required class="form__field"></textarea>
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" required class="input">
+                        <label for="name" class="user-label">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" required class="input">
+                        <label for="email" class="user-label">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="title" name="title" required class="input">
+                        <label for="title" class="user-label">Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" name="message" required class="input"></textarea>
+                        <label for="message" class="user-label">Your Message</label>
+                    </div>
                     <button type="submit">Send Message</button>
                 </form>
             </div>
