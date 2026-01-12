@@ -63,10 +63,8 @@
     padding: 0 .2em;
 }
 
-#contact-form input:focus ~ .user-label,
-#contact-form input:valid ~ .user-label,
-#contact-form textarea:focus ~ .user-label,
-#contact-form textarea:valid ~ .user-label {
+.input:focus ~ .user-label,
+.input:valid ~ .user-label {
     transform: translateY(-50%) scale(0.8);
     color: #000 ;
     font-weight: bold;
@@ -75,7 +73,7 @@
 }
 
 #contact-form textarea {
-    resize: none;
+    resize: vertical;
 }
 
 #contact-form button {
