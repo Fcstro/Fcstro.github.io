@@ -20,6 +20,63 @@ document.querySelectorAll("nav a").forEach(link => {
     emailjs.init("UaWgwYuxDOA5dtpHE"); // public key
 })();
 
+// Create notification function
+function showNotification(message, type) {
+    // Remove existing notification if any
+    const existingNotif = document.querySelector('.notification');
+    if (existingNotif) {
+        existingNotif.remove();
+    }
+    
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.textContent = message;
+    
+    // Add styles
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 15px 20px;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        max-width: 300px;
+        word-wrap: break-word;
+    `;
+    
+    // Set background color based on type
+    if (type === 'success') {
+        notification.style.backgroundColor = '#4CAF50';
+    } else if (type === 'error') {
+        notification.style.backgroundColor = '#f44336';
+    } else {
+        notification.style.backgroundColor = '#2196F3';
+    }
+    
+    // Add to page
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => {
+        notification.style.transform = 'translateX(0)';
+    }, 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.style.transform = 'translateX(100%)';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.parentNode.removeChild(notification);
+            }
+        }, 300);
+    }, 4000);
+}
+
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
@@ -52,10 +109,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             document.querySelectorAll('.input').forEach(input => {
                 input.value = '';
             });
+            // Show success notification
+            showNotification('Message sent successfully!', 'success');
         }, function(error) {
             console.error("Failed to send email:", error);
             status.textContent = 'Failed to send message. Please try again.';
             status.style.color = 'red';
+            // Show error notification
+            showNotification('Failed to send message. Please try again.', 'error');
             console.error('EmailJS Error:', error);
         });
 });
