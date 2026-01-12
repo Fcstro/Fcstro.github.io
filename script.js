@@ -14,8 +14,9 @@ document.querySelectorAll("nav a").forEach(link => {
         }
     });
 });
- // Initialize EmailJS with your User ID
- (function() {
+
+// Initialize EmailJS with your User ID
+(function() {
     emailjs.init("1RFR0DddZI3A5oN3Z"); // public key
 })();
 
@@ -47,12 +48,14 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             status.textContent = 'Message sent successfully!';
             status.style.color = 'green';
             document.getElementById('contact-form').reset();
-            alert('Your message has been sent successfully!');
+            // Reset floating labels
+            document.querySelectorAll('.input').forEach(input => {
+                input.value = '';
+            });
         }, function(error) {
             console.error("Failed to send email:", error);
             status.textContent = 'Failed to send message. Please try again.';
             status.style.color = 'red';
-            alert('Failed to send your message. Please try again later.');
             console.error('EmailJS Error:', error);
         });
 });
