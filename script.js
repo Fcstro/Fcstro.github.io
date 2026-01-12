@@ -80,10 +80,6 @@ function showNotification(message, type) {
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    const status = document.getElementById('form-status');
-    status.textContent = 'Sending...';
-    status.style.color = 'blue';
-    
     // Get current time
     const now = new Date();
     const timeString = now.toLocaleString();
@@ -102,8 +98,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     emailjs.send('service_banana', 'template_b8xluse', formData)
         .then(function(response) {
             console.log("Email sent successfully:", response);
-            status.textContent = 'Message sent successfully!';
-            status.style.color = 'green';
             document.getElementById('contact-form').reset();
             // Reset floating labels
             document.querySelectorAll('.input').forEach(input => {
@@ -113,8 +107,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             showNotification('Message sent successfully!', 'success');
         }, function(error) {
             console.error("Failed to send email:", error);
-            status.textContent = 'Failed to send message. Please try again.';
-            status.style.color = 'red';
             // Show error notification
             showNotification('Failed to send message. Please try again.', 'error');
             console.error('EmailJS Error:', error);
