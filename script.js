@@ -17,7 +17,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Initialize EmailJS with your User ID
 (function() {
-    emailjs.init("1RFR0DddZI3A5oN3Z"); // public key
+    emailjs.init("UaWgwYuxDOA5dtpHE"); // public key
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -42,7 +42,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     
     console.log("Sending email with data:", formData);
     // Send email
-    emailjs.send('service_g1ucldl', 'template_b8xluse', formData)
+    emailjs.send('service_banana', 'template_b8xluse', formData)
         .then(function(response) {
             console.log("Email sent successfully:", response);
             status.textContent = 'Message sent successfully!';
